@@ -1,4 +1,7 @@
 # Assignment-Element-2-Final-Project   Aircraft combat game
+
+Presentation vedio link
+
 1. Design background
 
 Many years ago, WeChat had a game called Airplane Wars. The interface style is simple, easy to operate, and interesting. It is very popular in China. (Figure
@@ -77,6 +80,5 @@ The player can do many things at the same time, so the return value is a list.
 
 Finally, after the screen object completes all the blit methods, call the display.update method in turn, and you can also see the final drawing result on the screen.
 
-Presentation vedio link
 
 
