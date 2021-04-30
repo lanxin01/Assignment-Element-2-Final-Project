@@ -32,9 +32,12 @@ The main technical route or method I have taken is the introduction of the syste
 The first thing to do is to install and use pip install pygame. Then I will draw the elements of the game interface. The composition of the interface is not complicated, including player aircraft, enemy aircraft, bullets, scoreboard and other elements.
 
 First, create a file named main.py as the main file. I first created the interface with a size of 480*800.
-
-Then import the material, the following are the functions used to import the material.
+![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/1.png)
 
 Create a Bullet class to store bullets. Create and initialize objects such as bullets and airplanes, and then add methods to move them. In the bullet class, the initialization method of the parent class is called to initialize the properties of the sprite.
+
+![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/2.png)
+
 In the plane class, various behaviors of the plane are stored.
+
 Initialize the rectangle where the picture is, and the coordinates of the upper left corner of the rectangle, and initialize the player's airplane speed. get_rect will return the rectangular area of the Surface, .centerx and .bottom are its two attributes
