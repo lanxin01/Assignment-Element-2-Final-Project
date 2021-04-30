@@ -76,3 +76,7 @@ The player can do many things at the same time, so the return value is a list.
 ![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/7.png)
 
 Finally, after the screen object completes all the blit methods, call the display.update method in turn, and you can also see the final drawing result on the screen.
+
+Presentation vedio link
+
+
