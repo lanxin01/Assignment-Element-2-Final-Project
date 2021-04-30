@@ -3,7 +3,7 @@
 
 Many years ago, WeChat had a game called Airplane Wars. The interface style is simple, easy to operate, and interesting. It is very popular in China. (Figure
 It seems that its picture quality and gameplay are not outdated now, and then I want to implement this game with python.
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/0.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/0.png)
 
 
 2. Design Notes
@@ -33,21 +33,21 @@ The main technical route or method I have taken is the introduction of the syste
 The first thing to do is to install and use pip install pygame. Then I will draw the elements of the game interface. The composition of the interface is not complicated, including player aircraft, enemy aircraft, bullets, scoreboard and other elements.
 
 1⃣️ Create a file named main.py as the main file. I first created the interface with a size of 480*800.
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/1.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/1.png)
 
 2⃣️ Create a Bullet class to store bullets. Create and initialize objects such as bullets and airplanes, and then add methods to move them. In the bullet class, the initialization method of the parent class is called to initialize the properties of the sprite.
 
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/2.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/2.png)
 
 In the plane class, various behaviors of the plane are stored.
 
 3⃣️ Initialize the rectangle where the picture is, and the coordinates of the upper left corner of the rectangle, and initialize the player's airplane speed. get_rect will return the rectangular area of the Surface, .centerx and .bottom are its two attributes.
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/3.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/3.png)
 
 4⃣️ Set the function for firing bullets.
 
 5⃣️ Four functions to control aircraft movement
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/4.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/4.png)
 The screen_rect in the code can get the rectangular border of the game window, and the rect object can get the rectangular border of the airplane image. You can limit the movement range of the aircraft through their attributes right, left, top, and bottom.
 
 The moving direction is divided into up, down, left, and right, and the boundary needs to be judged.
@@ -66,13 +66,13 @@ Move the position of all images every 1/60 seconds;
 Detect user interaction (player operations, such as moving the mouse, pressing the keyboard, etc.);
 Update all image positions;
 Update the screen display.
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/6.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/6.png)
 
 9⃣️ Listen to events in the game
 
 After the game is launched, the user's actions for the game, such as: clicking the close button, moving the mouse, pressing the button...
 In pygame, through pygame.event.get(), you can get the list of events currently done by the user
 The player can do many things at the same time, so the return value is a list.
-![image](https://github.com/lanxin01/Week-3-Exercise---The-Python-Challenge-/blob/main/7.png)
+![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/7.png)
 
 Finally, after the screen object completes all the blit methods, call the display.update method in turn, and you can also see the final drawing result on the screen.
