@@ -6,7 +6,9 @@ Presentation vedio link
 
 Many years ago, WeChat had a game called Airplane Wars. The interface style is simple, easy to operate, and interesting. It is very popular in China. (Figure
 It seems that its picture quality and gameplay are not outdated now, and then I want to implement this game with python.
+
 ![image](https://github.com/lanxin01/Assignment-Element-2-Final-Project/blob/main/0.png)
+
 
 
 2. Design Notes
