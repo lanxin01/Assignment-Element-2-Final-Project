@@ -2,6 +2,8 @@
 
 Presentation vedio link
 
+https://ual.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=00904311-7eb8-4122-842e-ad1a01158fc1
+
 1. Design background
 
 Many years ago, WeChat had a game called Airplane Wars. The interface style is simple, easy to operate, and interesting. It is very popular in China. (Figure
